@@ -7,7 +7,7 @@ Front-end: https://github.com/Darnoker/DynatraceInternshipTaskFront written in R
 
 ### Starting app
 
-To start app, first use ``./mvnw package clean`` inside dynatrace directory, then go back to root directory and use `docker-compose up` to build front-end app and start both apps.
+To start app, first use ``./mvnw clean package`` inside "DynatraceInternshipTaskBackend" directory, then go back to root directory and use `docker-compose up` to build front-end app and start both apps.
 
 ### How to use
 Go to the `localhost:3000` for the front-end app, there will be three inputs and three buttons, each one calls backend api to get the information from NBP api.
