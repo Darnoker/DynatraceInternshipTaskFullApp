@@ -44,7 +44,7 @@ function App() {
   }
 
   function getMaxAndMin() {
-    axios.get(apiUrl + '/last/average-rate/' + currencyCode + '/' + numberOfLastQuotations)
+    axios.get(apiUrl + '/last/max-and-min-average-rate/' + currencyCode + '/' + numberOfLastQuotations)
     .then(response => {
       setResult('Max: '+ response.data.max + ' Min: ' + response.data.min)
     })
