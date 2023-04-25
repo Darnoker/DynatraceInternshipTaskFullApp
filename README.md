@@ -2,8 +2,8 @@
 
 ### Links to front-end and back-end repositories
 
-Back-end: https://github.com/Darnoker/DynatraceInternshipTask <br>
-Front-end: https://github.com/Darnoker/DynatraceInternshipTaskFront
+Back-end: https://github.com/Darnoker/DynatraceInternshipTask written in Java 17 with Spring Boot 2.7.11 <br>
+Front-end: https://github.com/Darnoker/DynatraceInternshipTaskFront written in ReactJS 18.2.0
 
 ### Starting app
 
@@ -17,5 +17,5 @@ Go to the `localhost:3000` for the front-end app, there will be three inputs and
 
 ### Example endpoints
 htttp://localhost:8080/exchange/GBP/2023-01-02 <br>
-htttp://localhost:8080/exchange/last/average-rate/GBP/10 <br>
+htttp://localhost:8080/exchange/last/max-and-min-average-rate/GBP/10 <br>
 htttp://localhost:8080/exchange/last/spread/GBP/10
